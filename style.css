@@ -1,0 +1,66 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display:flex;
+    flex-direction: column;
+}
+
+.header,
+.header2{
+    background-color: #1f2937;
+    display: flex;
+
+}
+
+.header2{
+    flex-wrap: wrap;
+    
+}
+ 
+.header2-1{
+    display: flex;
+    
+}
+
+.BigT{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight:900;
+    margin-right: 0%;
+    padding-right: ;
+    max-width: 100px;
+}
+
+.SmallT{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 0%;
+    padding-right: 0%;
+    max-width: 100px;
+}
+
+button,
+.action{
+    background-color: #3882F6;
+}
+
+.middleheader{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quotet{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
