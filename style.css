@@ -2,6 +2,7 @@ body{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display:flex;
     flex-direction: column;
+    
 }
 
 .header,
@@ -13,29 +14,37 @@ body{
 
 .header2{
     flex-wrap: wrap;
-    
+    padding-right: 0%;
+    margin-right: 0%;
+justify-content: center;
 }
  
 .header2-1{
     display: flex;
     
+    
+}
+
+.header2-2{
+    display: flex;
 }
 
 .BigT{
     font-size: 48px;
     color: #f9faf8;
     font-weight:900;
-    margin-right: 0%;
-    padding-right: ;
-    max-width: 100px;
+    max-width: 500px;
 }
 
-.SmallT{
+.SmallT,
+.SmallT2 {
     font-size: 18px;
     color: #E5E7EB;
-    margin-right: 0%;
-    padding-right: 0%;
-    max-width: 100px;
+    max-width: 500px;
+    }
+.SmallT2{
+   padding: 20px;
+   padding-top: 60px;
 }
 
 button,
@@ -43,14 +52,28 @@ button,
     background-color: #3882F6;
 }
 
+.Middlebody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .middleheader{
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937;
+    color: #1f2937;  
+}
+
+.middleImg{
+    display: flex;
+    gap: 2em;
+    text-align: center;
 }
 
 .quote{
     background-color: #E5E7EB;
+    padding: 80px;
+    text-align: end;
 }
 
 .quotet{
@@ -62,5 +85,34 @@ button,
 .header{
     display: flex;
     justify-content: space-between;
+}
+
+.actionbox{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    min-width: 900px;
+
+}
+
+.actiontext{
+    gap: 0em;
+}
+.BottomSignUp{
+    display: flex;
+    align-self: center;
+}
+
+.footerbox{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
