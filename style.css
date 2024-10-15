@@ -5,11 +5,23 @@ body{
     
 }
 
+.headerbox{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.header{
+    justify-content: space-between;
+    min-width: 1000px;
+    
+}
+
 .header,
 .header2{
     background-color: #1f2937;
     display: flex;
-
 }
 
 
@@ -51,6 +63,22 @@ justify-content: center;
 button,
 .action{
     background-color: #3882F6;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+button{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.Midimg{
+    border: 5px solid #3882F6;
 }
 
 .Middlebox{
@@ -107,20 +135,29 @@ button,
     justify-content: center;
     padding: 20px;
     min-width: 900px;
+    gap: 6em;
+    
 
 }
 
 .actiontext{
     gap: 0em;
+    color: #ffffff;
 }
 .BottomSignUp{
-    display: flex;
-    align-self: center;
+    align-content: center; 
 }
-
+.BottomSignUpB{
+    border: 2px solid #ffffff;
+}
 .footerbox{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 15px;
+    background-color: #1f2937;
+    color: #ffffff;
 }
 
+h4{
+    font-weight: 900;
+}
