@@ -110,12 +110,16 @@ img{
     background-color: #E5E7EB;
     padding: 80px;
     text-align: end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .quotet{
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    max-width: 1000px;
 }
 
 .header{
