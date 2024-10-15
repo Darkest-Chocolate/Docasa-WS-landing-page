@@ -12,6 +12,7 @@ body{
 
 }
 
+
 .header2{
     flex-wrap: wrap;
     padding-right: 0%;
@@ -52,10 +53,17 @@ button,
     background-color: #3882F6;
 }
 
+.Middlebox{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .Middlebody{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: min-content;
 }
 
 .middleheader{
